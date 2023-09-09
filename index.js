@@ -3,6 +3,7 @@ const input1 = document.querySelector("#angle-1");
 const input2 = document.querySelector("#angle-2");
 const button = document.querySelector("#btn");
 const result = document.querySelector("#result");
+const clear = document.querySelector("#btn-clear");
 /* var */
 
 /* func */
@@ -16,4 +17,9 @@ button.addEventListener("click", () => {
   const angle2 = input2.value;
   const func = angleAxis(angle1, angle2);
   result.value = func;
+});
+
+clear.addEventListener("click", () => {
+  input1.value = "";
+  input2.value = "";
 });
