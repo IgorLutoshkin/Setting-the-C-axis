@@ -3,29 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Расчет угла поворота оси С</title>
   </head>
   <body>
-    <ul class="block">
-      <li>
-        <input id="angle-1" type="text" placeholder="Введи угол 1 " />
-      </li>
+    <div class="wrapper">
+      <h1 class="heder-title">Расчет необходимого угла для поворота оси "С"</h1>
+      <ul class="block">
+        <li>
+          <input id="angle-1" type="text" placeholder="Введи угол 1 " />
+        </li>
 
-      <li>
-        <input id="angle-2" type="text" placeholder="Введи угол 2 " />
-      </li>
+        <li>
+          <input id="angle-2" type="text" placeholder="Введи угол 2 " />
+        </li>
 
-      <li>
-        <button id="btn">Вычислить</button>
-      </li>
-      <li>
-        <button id="btn-clear">Очистить</button>
-      </li>
-      <li>
-        <input id="result" type="text" placeholder="Результат" />
-      </li>
-    </ul>
+        <li>
+          <button id="btn">Вычислить</button>
+        </li>
+        <li>
+          <button id="btn-clear">Очистить</button>
+        </li>
+        <li>
+          <input id="result" type="text" placeholder="Результат" />
+        </li>
+      </ul>
+    </div>
 
     <!--  -->
     <script src="index.js"></script>

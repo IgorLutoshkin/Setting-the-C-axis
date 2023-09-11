@@ -1,5 +1,6 @@
 body {
   background-color: #f2f2f2;
+  font-family: 'Roboto', sans-serif;
 }
 input[type="text"] {
   width: 200px;
@@ -15,11 +16,11 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
-#btn-clear{
-	background-color: #ff5e00;
+#btn-clear {
+  background-color: #ff5e00;
 }
-#btn-clear:hover{
-	background-color: #ff5e00d5;
+#btn-clear:hover {
+  background-color: #ff5e00d5;
 }
 button:hover {
   background-color: #45a049;
@@ -31,8 +32,12 @@ button:hover {
   border-radius: 5px;
   font-weight: bold;
 }
+.heder-title {
+  text-align: center;
+  color: #464646;
+  font-size: 24px;
+}
 .block {
-  min-width: 1170px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -50,30 +55,3 @@ ul {
 li {
   margin-bottom: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-.block{
-	min-width: 1170px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
-	margin: 0 auto;
-}
-
-ul{
-	list-style: none;
-}
-li{
-	padding: 10px;
-}
-
-
